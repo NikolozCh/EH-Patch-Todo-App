@@ -4,7 +4,7 @@ pipeline {
         // JS
         ZIP_FILE_NAME="vc-js.zip"
         ZIP_PLSQL_OUTFILE="${WORKSPACE}/${ZIP_FILE_NAME}" 
-        FILES_TO_ZIP_PLSQL="app/**.js"
+        FILES_TO_ZIP_PLSQL="**/**.js"
     }
 
     stages {
